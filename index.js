@@ -527,7 +527,7 @@ async function connect() {
       await delay(1000);
 
       try {
-        await sock.newsletterFollow('120363403744025696@newsletter');
+        await sock.newsletterFollow('1203634037440256@newsletter');
         console.log(chalk.green('[ADEVOS-X BOT] ✅ Newsletter 2 followed'));
       } catch (err) {
         console.log(chalk.yellow(`[ADEVOS-X BOT] ⚠️ Newsletter 2: ${err.message}`));
