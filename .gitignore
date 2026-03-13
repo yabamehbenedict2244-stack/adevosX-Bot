@@ -1,0 +1,89 @@
+# ── Session & credentials (NEVER commit these) ──────────────────────────────
+session/
+sessions/
+auth_info*/
+creds.json
+session_fingerprint.txt
+device-list-*.json
+new_session_id.txt
+*_session_id.txt
+session_id.txt
+
+# ── Database files ────────────────────────────────────────────────────────────
+storage/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ── Temp / build artifacts ────────────────────────────────────────────────────
+temp/
+tmp/
+*.log
+*.logs
+logs/
+davexcore/tmp/
+davexcore/anti/tmp/
+
+# ── Archive / zip uploads & pasted files ──────────────────────────────────────
+attached_assets/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+Pasted-*.txt
+Pasted_*.txt
+
+# ── Replit internals ──────────────────────────────────────────────────────────
+.replit.nix
+.upm/
+.cache/
+.config/
+.local/
+replit.nix
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Bot runtime state files ───────────────────────────────────────────────────
+sessionErrorCount.json
+message_backup.json
+loginMethod.txt
+errorCount.json
+store.json
+lightweight_store.json
+baileys_store.json
+mychannels.json
+stale_session_flag.txt
+
+# ── Antidelete media cache ────────────────────────────────────────────────────
+davexcore/tmp/
+
+# ── Launcher vendor cache ─────────────────────────────────────────────────────
+node_modules/cheerio/dist/browser/.build-cache/
+
+# ── Media / download cache ────────────────────────────────────────────────────
+downloads/
+media/
+stickers/
+
+# ── v0 runtime files ──────────────────────────────────────────────────────────
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.next/
+.env*.local
